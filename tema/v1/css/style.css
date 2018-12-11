@@ -1,0 +1,105 @@
+/*
+Forum scripti
+*/
+
+body{margin:auto; font:13/20px Arial; background: #f1f1f1}
+table , tr, td , ul,ol,li,h1,h2,h3,p,form,input,textarea,button,select,img {padding:0; margin:0; list-style:none; border:0}
+:focus {outline: 0}
+a{text-decoration: none}
+.clear {clear: both}
+
+/* ÝÇERÝK */
+#icerik {width:950px; margin:0 auto;}
+
+/* Header */
+#header{height:210px ; position:relative; border-bottom:2px solid #ddd;}
+
+/* NavBar */
+#navbar{background:#404040;  padding:8px 5px; overflow:auto}
+#navbar ul{float:right;}
+#navbar ul li {float:left;}
+#navbar ul li a {color: #eee; padding:0 7px;}
+#navbar ul li a:hover,#navbar ul li.aktif a {color : #fff}
+
+/* Logo*/
+
+.logo {position:absolute; top:55px ;left:10px;}
+
+/* Giris yap */ 
+#girisYap {position: absolute; top:45px; right:10px; width:250px; height:65px; margin-top:50px;}
+#girisYap input {border : 1px solid #ddd; padding:1px}
+#girisYap table tr td{padding:1px}
+#girisYap button{background:#333; color:#fff; padding:3px; font-size:11px; cursor:pointer;}
+ 
+ 
+ /*Ýcerik */
+
+.icerik {background:#fff; padding:10px;}
+.icerik h1{background:#e1e1e1; padding:10px; font:bold 14px Arial;}
+.icerik table{margin-bottom:10px;}
+.icerik table thead tr td {background:#f3f3f3;}
+.icerik table tr td{padding: 5px}
+.icerik table tbody tr td{border-bottom:1px solid #eee}
+.icerik table tbody tr td a {color:#760909; display:block}
+.icerik table tbody tr td span{color:#656565; font-style:oblique}
+
+.rutbe{color:red; padding:2px;}
+/* Hata mesajlarý*/
+
+.hata {background:#ffeeee; border:1px solid #d6c0c0; padding:7px}
+.ok {background:#fcffee; border:1px solid #d1d6c0; padding:7px}
+
+/* Kayit ol*/
+
+.kayit span{display:block; padding:5px;}
+.kayit span input{border:1px solid #ddd; padding:4px ; width:230px;}
+.kayit span button{background:#333; color:#fff; padding:3px 10px; cursor:pointer;}
+.kayit span textarea{width:700px; border:1px solid #ddd; overflow:auto; resize:none; font:13px/17px Arial; height:150px; padding:5px}
+
+/*Forum imza*/
+
+.forumimza{border-top:1px dashed #ddd; padding:5px; margin-top:5px;}
+
+/*Üye*/
+.uye{overflow:auto;}
+.uyeSag{float:right; width:150px; border:1px solid #ddd; padding:5px;}
+.uyeAvatar img{width:150px;}
+.uyeSag ul li {border-bottom: 2px dashed #ddd; padding:3px;}
+.uyeSag ul li strong{color:red;}
+.uyeSol {float:left; margin-top:5px; width:760px;}
+.uyeSol h2{background:#fde5e5; padding:5px; font-size:15px; color:#4a0303}
+.uyeSol ul {border:1px solid #d0b4b4; padding: 6px;}
+.uyeSol ul li {color:#656565; padding:2px; border-bottom:1px dashed #edd}
+/* Üye Menü */
+.uyeMenu a:hover{text-decoration:underline}
+.uyeMenu a {color:#6f2a00; padding:0 3px;}
+
+/*Sayfa Geçiþi*/
+.sayfaGecisi {text-align:right; padding-bottom:5px}
+.sayfaGecisi a {background:#eee; padding: 3px 10px; color:#d00000;}
+
+/*Konu*/
+.konu{overflow:auto; border-bottom:1px solid #ddd;}
+.konuSag {float:right; width:770px; padding:5px;}
+
+/*post Bit*/
+.postBit {float:left; width:130px; background:#eee; padding:5px; text-align:center; border-right:1px solid #ddd;}
+
+/*Yorum Yap */
+#yorumyap{border :1px solid #ddd; padding:5px}
+#yorumyap span{display:block; padding:3px}
+#yorumyap h2{background: #333; padding:9px; font: bold 14px Arial; color: #fff}
+#yorumyap span textarea{border : 1px solid #ddd; padding:5px; width:900px; height: 100px;}
+#yorumyap span button{background:#333;  color:#fff; padding:2px 5px; cursor:pointer;}
+
+/*Yorum */
+
+.yorum {border-bottom: 1px solid #ddd; overflow: auto;}
+
+/*Ýstatistikler*/
+.istatistikler {background-color:ffefae; padding:10px; border:1px solid #ddd;}
+.istatistikler span{color:red;}
+
+
+/*Footer */ 
+#footer {padding:10px 0; border-top: 2px solid #ddd}
